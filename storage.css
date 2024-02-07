@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100px;
+    height: 100px;
+    font-family: sans-serif;
+    background-color: #572870;
+    color: white;
+   
+}
+#container{
+    width: 300px;
+    background-color: white;
+    margin-left: 40%;
+    margin-top: 20px;
+    border-radius: 15px;
+    color: black;
+    justify-content: center;
+
+}
+.searchdiv{
+    width: 270px;
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    /* text-align: center; */
+}
+.searchdiv a{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.searchdiv input{
+    width: 300px;
+    height: 25px;
+    margin-left: 5px;
+    background-color: #E3E3E3;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    /* margin-left: 20px; */
+}
+.sr{
+    margin-left: -20px;
+}
+.playlist{
+    width: 250px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.playlist div{
+    display: grid;
+    color: #DBD7DE;
+    font-size: x-small;
+}
+.playlist h5{
+    margin-left: -8px;
+}
+.lorem{
+    display: flex;
+    width: 270px;
+    margin: auto;
+    justify-content: space-between;
+    color: #767676;
+    font-size: x-small;
+    margin-bottom: 10px;
+}
+.lorem div{
+    display: flex;
+    background-color: #E3E3E3;
+    border-radius: 10px;
+    width: 150px;
+}
+.fline{
+    display: flex;
+    color: #A7A7A7;
+    font-size: small;
+    width: 270px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.fline div{
+    height: 2px;
+    background-color: #A7A7A7;
+    width: 230px;
+    margin-top: 5px;
+    margin-bottom: 45px;
+}
+/* .dfolder{
+    display: grid;
+} */
+.folder{
+    width: 270px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.folder button{
+    border: none;
+    color: #B6B6B6;
+    background-color: white;
+    /* text-decoration: none; */
+}
+.folder h6{
+    color: #B6B6B6;
+}
+.folder p{
+    color: #B6B6B6;
+    margin-top: -10px;
+}
+@media(min-width:412px){
+    #container{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+}
+@media(min-width:500px){
+    #container{
+       margin-left: 100px;
+    }
+}
+@media(min-width:820px){
+    #container{
+       margin-top: 30px;
+       margin-left: 250px;
+    }
+}
+@media(min-width:760px){
+    #container{
+       margin-top: 30px;
+       margin-left: 250px;
+    }
+}
+@media(min-width:900px){
+    #container{
+       margin-left: 300px;
+    }
+}
+@media(min-width:540px){
+    #container{
+       margin-top: 30px;
+       
+    }
+}
+@media(min-width:890px){
+    #container{
+       margin-left: 350px;
+       
+    }
+}
+
+
